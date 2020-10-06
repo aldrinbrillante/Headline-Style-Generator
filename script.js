@@ -27,3 +27,34 @@ inputBGColor.addEventListener('input', handleInput)
 inputColor.addEventListener('input', handleInput)
 selectFont.addEventListener('input', handleInput)
 enterText.addEventListener('input', handleInput)
+
+
+
+// this is for handle input
+// create function handleInput()
+function handleInput() {
+	// get the font size:
+	const fontSize = inputSize.value
+	// Set the style 
+	display.style.fontSize = fontSize
+	// Show the size
+    showSize.innerHTML = fontSize
+
+    const fontFamily = selectFont.value
+    display.style['font-family'] = fontFamily
+    showFont.innerHTML = fontFamily
+
+    const fontColor = inputColor.value
+    display.style.color = fontColor
+    showColor.innerHTML = fontColor
+
+    const bgColor = inputBGColor.value
+    display.style.backgroundColor = bgColor
+    showBGColor.innerHTML = bgColor
+
+    const headline = enterText.value
+    display.innerHTML = headline
+} 
+
+// call the function
+handleInput()
