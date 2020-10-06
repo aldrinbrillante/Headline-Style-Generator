@@ -35,10 +35,10 @@ enterText.addEventListener('input', handleInput)
 function handleInput() {
 	// get the font size:
 	const fontSize = inputSize.value
-	// Set the style 
-	display.style.fontSize = fontSize
+	// Set the style. add + 'px' to make sure it implements it into the font size
+	display.style.fontSize = fontSize + 'px' 
 	// Show the size
-    showSize.innerHTML = fontSize
+    showSize.innerHTML = fontSize 
 
     const fontFamily = selectFont.value
     display.style['font-family'] = fontFamily
