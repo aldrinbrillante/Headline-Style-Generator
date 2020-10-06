@@ -1,0 +1,14 @@
+main {
+    /* display flex */
+    display: flex;
+    /* flex-direction row to put font setting on right side */
+    flex-direction: row;
+}
+
+
+/* style for left side */
+.left-col {
+    width: 50%;
+    /* add space between borders with padding */
+    padding: 5px; 
+}
