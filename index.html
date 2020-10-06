@@ -1,0 +1,83 @@
+<!DOCTYPE html> <!--declares language type -->
+<html>
+    <head>
+        <title>Aldrin Brillante - Final - Web 1.0</title>
+        <!--Add stylesheet-->
+        <link rel="stylesheet" href="./styles.css" />
+        <!--Add script sheet-->
+        <script src="./script.js" defer></script>
+
+    </head>
+    <body>
+        <main>
+            <div class="left-col">
+                <section id="student-info">
+                    <h1>Aldrin Brillante</h1>
+                    <p>My favorite color is blue and I wear slippahs</p>
+                </section>
+                <br>
+                <section id="data-input">
+                    <h1>Font Styler</h1>
+        
+                    <label>Font Size</label>
+                    <br>
+                    <input id="input-size" type="number">
+                    <br>
+                    <label>Font Family</label>
+                    <br>
+                    <select id="select-font">
+                        <option>Helvetic</option>
+                        <option>Arial</option>
+                        <option>Times New Roman</option>
+                        <option>Georgia</option>
+                    </select>
+                    <br>
+
+                    <!-- <label>Font Weight</label>
+                    <br>
+                    <select id="select-weight">
+                        <option>Bold</option>
+                        <option>Bolder</option>
+                        <option>Normal</option>
+                        <option>Lighter</option>
+                    </select>
+                    <br> -->
+                    
+                    <label>Font Color</label>
+                    <br>
+                    <input id="input-color" type="color" value="#000">
+                    <br>
+                    <label>Background Color</label>
+                    <br>
+                    <input id="input-bg-color" type="color" value="#fff">
+                    <br>
+                    <label>
+                        Enter text
+                        <textarea id="enter-text"></textarea>
+                    </label>
+                    <br>
+                    
+                </section>
+            </div>
+            <div class="right-col">
+                <section id="headline-display">
+                    <!--The goal of this section is to display a headline and style it with what was input into the form elements.-->
+                    <h1 id="display"></h1>
+                </section>
+                <section id="data-output">
+                    <!--The goal of this section is to display the CSS code that is styling the headline.-->
+                    <h1>Font Settings</h1>
+                    <pre><code>
+                        .headline {
+                        font-size: <span id="show-size"></span>px;
+                        font-family: <span id="show-font">Times</span>;
+                        <!-- font-weight: <span id="show-weight">Normal</span> -->
+                        color: <span id="show-color">#000</span>;
+                        background-color: <span id="show-bg-color">#fff</span>;
+                        }
+                    </code></pre>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
