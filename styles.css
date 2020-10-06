@@ -12,3 +12,27 @@ main {
     /* add space between borders with padding */
     padding: 5px; 
 }
+
+/* style for right side */
+.right-col {
+    width: 50%;
+    /* add space between borders with padding */
+    padding: 5px; 
+}
+
+/* style for headline display */
+#headline-display {
+    border: 2px solid black;
+    padding: 50px;
+    text-align: center;
+}
+
+/* data-input style */
+#data-input {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* #data-output > h1 {
+    align-items: right;
+} */
