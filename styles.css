@@ -1,3 +1,4 @@
+/* main style  */
 main {
     /* display flex */
     display: flex;
@@ -33,6 +34,8 @@ main {
     padding: 20px;
 }
 
-/* #data-output > h1 {
-    align-items: right;
-} */
+
+/* this centers the h1 text in my data-output, which is the 'Font Settings' */
+#data-output > h1 {
+    text-align: center;
+}
