@@ -11,15 +11,21 @@
     <body>
         <main>
             <div class="left-col">
-
                 <!-- start of student-info section -->
                 <section id="student-info">
                     <h1>Aldrin Brillante</h1>
                     <p>My favorite color is blue and I wear slippahs</p>
-                    <!-- insert cat-coding mp4 gif here -->
+                    <p>Press play below if you want background music</p>
+
+                    <!-- add music-->
+                    <audio controls autoplay>
+                        <source src="lofi-mellow.mp3" type="audio/mp3">
+                    </audio>
+
+                    <!-- insert chill-vibe mp4 gif here -->
                     <img
                     width="400" height="240" controls
-                    src="cat-coding.mp4" alt="description of gif" /> 
+                    src="chill-vibe.mp4" alt="description of gif" /> 
                 </section> <!--end of section-->
                 <br>
                 
@@ -41,15 +47,7 @@
                     </select>
                     <br>
 
-                    <!-- <label>Font Weight</label>
-                    <br>
-                    <select id="select-weight">
-                        <option>Bold</option>
-                        <option>Bolder</option>
-                        <option>Normal</option>
-                        <option>Lighter</option>
-                    </select>
-                    <br> -->
+    
                     
                     <label>Font Color</label>
                     <br>
@@ -85,10 +83,14 @@
                         background-color: <span id="show-bg-color">#fff</span>;
                         }
                     </code></pre>
+                    <!--add little gif at bottom-->
+                    <video width="520" height="410" autoplay muted loop id="myVideo">
+                        <source src="lofi-girl.mp4" type="video/mp4">
+                    </video>
                 </section>
             </div>
         </main>
         <!-- <embed src="lofi-mellow.mp3" autoplay> -->
-        <embed src="lofi-mellow.mp3" autostart="true" loop="true" width="2" height="0"> </embed>
+        <!-- <embed src="lofi-mellow.mp3" autostart="true" loop="true" width="2" height="0"> </embed> -->
     </body>
 </html>
