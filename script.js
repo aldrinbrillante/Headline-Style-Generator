@@ -44,7 +44,7 @@ function handleInput() {
     display.style['font-family'] = fontFamily
     showFont.innerHTML = fontFamily
 
-    const fontColor = inputColor.value
+    const fontColor = inputColor.value  
     display.style.color = fontColor
     showColor.innerHTML = fontColor
 

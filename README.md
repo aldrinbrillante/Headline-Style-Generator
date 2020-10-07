@@ -1,4 +1,4 @@
-# Web 1.0 FInal Assessment
+# Headline Style Generator
  Web 1.0 FInal Assessment 
 
 
